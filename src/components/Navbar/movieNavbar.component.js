@@ -1,6 +1,6 @@
 import React,{useContext} from "react";
 import { Link } from "react-router-dom";
-import {BiChevronRight, BiSearch, BiShareAlt} from "react-icons/bi";
+import {BiSearch, BiShareAlt} from "react-icons/bi";
 import {GiHamburgerMenu} from "react-icons/gi";
 import {AiOutlineCaretDown} from "react-icons/ai";
 import logo from "../../images/bookmyshow-logo.png";
@@ -28,7 +28,7 @@ const NavLg = () => {
 
         <div className="w-40  ml-10">
         <Link to={`/`}>
-          <img src={logo} alt="Logo image" className="w-full ml-2" />
+          <img src={logo} alt="logo" className="w-full ml-2" />
         </Link>
         </div>
         <div className="w-full h-9 my-2 flex bg-white items-center px-3 py-1 rounded-md ">

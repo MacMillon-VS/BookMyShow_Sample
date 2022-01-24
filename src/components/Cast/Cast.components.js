@@ -4,7 +4,7 @@ const Cast = (props) => {
     return (
         <div>
           <div className="flex flex-col items-center">
-              <div className="w-32 h-32 gap-3">
+              <div className="w-32 h-32">
                   <img 
                     src={props.image}
                     alt="crew man"
