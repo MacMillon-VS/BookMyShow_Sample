@@ -18,6 +18,7 @@ const MovieLayout = (props) => {
        setMovie(getMovieData.data);
     };
     requestMovie();
+     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [id]);
   return (
     <div>
