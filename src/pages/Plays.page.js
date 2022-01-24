@@ -16,14 +16,14 @@ const Plays = () => {
                     <Poster 
                       src="https://in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:w-400.0,h-660.0,cm-pad_resize,bg-000000,fo-top:oi-discovery-catalog@@icons@@heart_202006300400.png,ox-24,oy-617,ow-29:ote-NzQlICAyayB2b3Rlcw%3D%3D,ots-29,otc-FFFFFF,oy-612,ox-70/et00107364-cevhlcagnx-portrait.jpg"
                       title="`The Kings Man`"
-                      subtitle="Tamil -> ₹400" 
+                      language="Tamil -> ₹400" 
                     />
                   </div>
                   <div className="w-1/2 md:w-1/3 my-3 lg:w-3/12">
                     <Poster 
                      src="https://in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:w-400.0,h-660.0,cm-pad_resize,bg-000000,fo-top:oi-discovery-catalog@@icons@@heart_202006300400.png,ox-24,oy-617,ow-29:ote-NzQlICAyayB2b3Rlcw%3D%3D,ots-29,otc-FFFFFF,oy-612,ox-70/et00107364-cevhlcagnx-portrait.jpg"
                      title="`The Kings Man`"
-                     subtitle="English -> ₹400"  
+                     language="English -> ₹400"  
                     />
                   </div>
                 </div>

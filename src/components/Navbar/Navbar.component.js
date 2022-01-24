@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import {BiChevronRight, BiSearch} from "react-icons/bi";
 import {GiHamburgerMenu} from "react-icons/gi";
 import {AiOutlineCaretDown} from "react-icons/ai";
@@ -43,7 +44,9 @@ const NavLg = () => {
     <div className="w-full flex justify-between gap-4 items-center mx-auto mr-10">
 
         <div className="w-40  ml-10">
+        <Link to={`/`}>
           <img src={logo} alt="Logo image" className="w-full ml-2" />
+          </Link>
         </div>
         <div className="w-full h-9 my-2 flex bg-white items-center px-3 py-1 rounded-md ">
           <BiSearch className="w-5 h-5 " style={{color:'grey'}} />
