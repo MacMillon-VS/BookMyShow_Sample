@@ -1,4 +1,6 @@
-import React, { useContext} from 'react';
+import React, { useContext, useState,useEffect } from 'react';
+import axios from "axios";
+import { useParams } from "react-router";
 import {BsFillHeartFill} from "react-icons/bs"
 
 //Context
@@ -21,7 +23,17 @@ const launchRazorPay = () => {
     rzp.open();
   };
 const MovieInfoLg = () => {
-    const { movie } = useContext(MovieContext);  
+  const { id } = useParams();
+  const { movie } = useContext(MovieContext);
+  const [setRating] = useState([]);
+  useEffect(() => {
+    const requestRating = async () => {
+      const getRating = await axios.get(`movie/${id}/reviews`);
+      setRating(getRating.results.author_details.rating);
+
+    };
+    requestRating();
+  }, [id]);  
 
 
     return (
